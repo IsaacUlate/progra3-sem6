@@ -66,6 +66,11 @@ public void setSound(String sound){
     this.sound = sound;
 }
 
+public void updateListMember (Animal animal, int index){
+    animals.set(index, animal);
+    this.getAnimals();
+}
+
 
 }
 
